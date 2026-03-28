@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Concierge Systems | Luxury Wardrobe Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #b8924e;
+            --obsidian: #1a1a1a;
+            --ivory: #fdfcf9;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--ivory);
+            color: var(--obsidian);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 { font-family: 'Cormorant Garamond', serif; font-weight: 300; text-transform: uppercase; letter-spacing: 3px; }
+
+        nav { padding: 30px 10%; display: flex; justify-content: center; border-bottom: 1px solid #eee; background: white; }
+        .logo { font-size: 1.4rem; letter-spacing: 6px; font-weight: 400; }
+
+        header { padding: 100px 10%; text-align: center; background: white; }
+        header p { max-width: 650px; margin: 20px auto; color: #666; font-weight: 300; font-size: 1.1rem; }
+
+        .tier-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 50px 10%; }
+        .tier-card { border: 1px solid #e0e0e0; padding: 40px; background: white; position: relative; }
+        .tier-card:hover { border-color: var(--gold); }
+        
+        .price-label { font-size: 0.7rem; color: var(--gold); letter-spacing: 2px; margin-bottom: 15px; display: block; font-weight: 600; }
+        .tier-card ul { list-style: none; padding: 0; font-size: 0.9rem; margin-top: 25px; }
+        .tier-card li { margin-bottom: 12px; border-bottom: 1px solid #f8f8f8; padding-bottom: 8px; color: #444; }
+
+        .addons-section { background: var(--obsidian); color: white; padding: 80px 10%; text-align: center; }
+        .addon-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-top: 40px; }
+        .addon-item { border: 1px solid rgba(184, 146, 78, 0.4); padding: 20px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; }
+
+        .cta { padding: 100px 10%; text-align: center; }
+        .btn { display: inline-block; padding: 20px 60px; border: 1px solid var(--gold); color: var(--gold); text-decoration: none; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 4px; transition: 0.4s; }
+        .btn:hover { background: var(--gold); color: white; }
+
+        footer { padding: 60px 10%; text-align: center; font-size: 0.7rem; color: #aaa; text-transform: uppercase; letter-spacing: 3px; border-top: 1px solid #eee; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">HOME CONCIERGE SYSTEMS</div>
+    </nav>
+
+    <header>
+        <span style="color: var(--gold); letter-spacing: 4px; font-size: 0.8rem;">ESTABLISHED ORDER</span>
+        <h1>Bespoke Wardrobe Management</h1>
+        <p>Providing an elite standard of residence stewardship. We protect the integrity of your collection by operating exclusively within your home environment.</p>
+    </header>
+
+    <section class="tier-container">
+        <div class="tier-card">
+            <span class="price-label">LEVEL I | BI-WEEKLY STEWARDSHIP</span>
+            <h3>The Essential System</h3>
+            <ul>
+                <li>2 On-Site Management Visits</li>
+                <li>Signature Closet & Wardrobe Reset</li>
+                <li>In-Home Wash & Fold Laundry</li>
+                <li>Fabric Auditing & Textile Care</li>
+                <li><b>Bonus:</b> Pantry or Home Office Tidy</li>
+            </ul>
+        </div>
+
+        <div class="tier-card" style="border-top: 4px solid var(--gold);">
+            <span class="price-label">LEVEL II | TRI-WEEKLY STEWARDSHIP</span>
+            <h3>The Premier System</h3>
+            <ul>
+                <li>3 On-Site Management Visits</li>
+                <li>Full Heir’s Wardrobe (Children’s Suites)</li>
+                <li>Donation & Consignment Coordination</li>
+                <li>Packing & Travel Prep Systems</li>
+                <li><b>Bonus:</b> Garage or Storage Optimization</li>
+            </ul>
+        </div>
+
+        <div class="tier-card">
+            <span class="price-label">LEVEL III | COMPREHENSIVE</span>
+            <h3>The Sovereign System</h3>
+            <ul>
+                <li>Weekly On-Site Stewardship</li>
+                <li><b>The Digital Closet (Inventory Management)</b></li>
+                <li>Seasonal Wardrobe Rotation</li>
+                <li>Outfit Styling & Event Preparation</li>
+                <li>Full Access to All Professional Add-Ons</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="addons-section">
+        <h2>Professional Add-Ons</h2>
+        <p style="color: #999;">Single-Service Bookings (Private Quote Required)</p>
+        <div class="addon-grid">
+            <div class="addon-item">Declutter & Consign</div>
+            <div class="addon-item">Digital Inventory Entry</div>
+            <div class="addon-item">Laundry Infrastructure Design</div>
+            <div class="addon-item">Bespoke Labeling Systems</div>
+            <div class="addon-item">Travel & Packing Architecture</div>
+            <div class="addon-item">Wardrobe Styling</div>
+            <div class="addon-item">Kitchen/Pantry Systems</div>
+            <div class="addon-item">Strategic Office Organization</div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Inquire for Placement</h2>
+        <p>Monthly stewardship contracts are limited. Single services quoted upon consultation.</p>
+        <br>
+        <a href="mailto:your-email@example.com" class="btn">Request Consultation</a>
+    </section>
+
+    <footer>
+        &copy; 2026 HOME CONCIERGE SYSTEMS. ALL RIGHTS RESERVED.
+    </footer>
+
+</body>
+</html>
